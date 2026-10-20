@@ -1,0 +1,13 @@
+# Local terraform runtime directories
+.terraform/
+
+# State files (contain plain text secrets!)
+*.tfstate
+*.tfstate.*
+
+# Variables files if they contain sensitive secrets
+*.tfvars
+!terraform.tfvars  # Only push if it contains non-secret values (like region names)
+
+# Crash logs
+crash.log
